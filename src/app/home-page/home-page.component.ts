@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ViewEncapsulation } from "@angular/core";
 import { Router } from "@angular/router";
 import '../app.component.css'
 
@@ -6,6 +6,7 @@ import '../app.component.css'
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 
 export class HomePageComponent {

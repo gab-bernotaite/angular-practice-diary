@@ -3,8 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-add-diary-entry',
   templateUrl: './add-diary-entry.component.html',
-  styleUrls: ['./add-diary-entry.component.css']
+  styleUrls: ['../home-page/home-page.component.css']
 })
 export class AddDiaryEntryComponent {
+  appTitle = 'Mind Your Mind'
+  pageTitle = 'Add Diary Entry'
 
 }
