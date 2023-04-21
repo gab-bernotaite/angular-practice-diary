@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+html {
+  background-color: #F2E9E4;
+}
+
+.button {
+  margin-left: 20rem;
+  margin-top: 5rem;
+  padding: 3rem;
+  font-size: 30px;
+  border-radius: 12px;
+  background-color: #9A8C98;
+  border:#9A8C98;
+  color:white;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #C9ADA7;
+  color: #22223B;
+}
+
+.header {
+  background-color: #C9ADA7;
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  position: relative;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Tilt Prism', cursive;
+  font-size: 150px;
+  color: #22223B;
+  /* margin-bottom: 5rem; */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 3px;
+}
+
+
+
