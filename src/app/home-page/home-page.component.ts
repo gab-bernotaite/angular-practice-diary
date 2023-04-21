@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 import '../app.component.css'
 
 @Component({
@@ -10,6 +11,12 @@ import '../app.component.css'
 export class HomePageComponent {
 
   title = 'Mind Your Mind'
+
+  constructor(private router: Router) {}
+
+  onAddDiaryEntry() {
+    this.router.navigate(['/add-diary-entry']);
+  }
 
 
 }
