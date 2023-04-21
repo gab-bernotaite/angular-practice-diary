@@ -9,7 +9,7 @@ import '../app.component.css'
 
 export class HomePageComponent {
 
-  
+  title = 'Mind Your Mind'
 
 
 }
