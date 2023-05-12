@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
+html {
+  background-color: #F2E9E4;
+  background-size: cover;
+}
+
 body {
   background-color: #F2E9E4;
+  background-size: cover;
 }
+
 
 .button {
   margin-left: 20rem;

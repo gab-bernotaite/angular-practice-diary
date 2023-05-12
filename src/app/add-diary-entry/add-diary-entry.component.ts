@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AddDiaryEntryComponent {
   appTitle = 'Mind Your Mind'
-  pageTitle = 'Add Diary Entry'
+  pageTitle = 'Add a Diary Entry'
 
 }
